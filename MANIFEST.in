@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include red_background *.css
+recursive-include red_background *.csv
+recursive-include red_background *.html
+recursive-include red_background *.ico
+recursive-include red_background *.js
+recursive-include red_background *.json
+recursive-include red_background *.md
+recursive-include red_background *.png
+recursive-include red_background *.py
+recursive-include red_background *.svg
+recursive-include red_background *.txt
+recursive-exclude red_background *.pyc
