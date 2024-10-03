@@ -1,4 +1,8 @@
-:root {
-  --navbar-bg: #ffd8d8;
+:root[data-theme="dark"] {
+  --bg-color: #383838;
+  --navbar-bg: #6b5e5e;
+}
+:root[data-theme="light"] {
   --bg-color: #fff8f8;
+  --navbar-bg: #ffd8d8;
 }
