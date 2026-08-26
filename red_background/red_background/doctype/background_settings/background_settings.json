@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "creation": "2026-08-26 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "section_break_light",
+  "light_background_color",
+  "column_break_light",
+  "light_navbar_color",
+  "section_break_dark",
+  "dark_background_color",
+  "column_break_dark",
+  "dark_navbar_color"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "HTML",
+   "options": "<p>Leave all colors empty to use the default red. Set any of the colors below to override it for this site.</p>"
+  },
+  {
+   "fieldname": "section_break_light",
+   "fieldtype": "Section Break",
+   "label": "Light Theme"
+  },
+  {
+   "fieldname": "light_background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "column_break_light",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "light_navbar_color",
+   "fieldtype": "Color",
+   "label": "Navbar Color"
+  },
+  {
+   "fieldname": "section_break_dark",
+   "fieldtype": "Section Break",
+   "label": "Dark Theme"
+  },
+  {
+   "fieldname": "dark_background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "column_break_dark",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dark_navbar_color",
+   "fieldtype": "Color",
+   "label": "Navbar Color"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-08-26 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Red Background",
+ "name": "Background Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

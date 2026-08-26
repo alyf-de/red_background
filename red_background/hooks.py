@@ -13,7 +13,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/red_background/css/red_background.css"
-# app_include_js = "/assets/red_background/js/red_background.js"
+app_include_js = "/assets/red_background/js/red_background.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/red_background/css/red_background.css"
@@ -21,6 +21,9 @@ app_include_css = "/assets/red_background/css/red_background.css"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "red_background/public/scss/website"
+
+# add colors from Background Settings to frappe.boot, if configured
+extend_bootinfo = "red_background.boot.boot_session"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
