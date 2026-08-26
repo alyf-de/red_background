@@ -1,6 +1,6 @@
 {
  "actions": [],
- "creation": "2026-08-26 00:00:00.000000",
+ "creation": "2026-08-26 15:00:26.672142",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -61,7 +61,7 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2026-08-26 00:00:00.000000",
+ "modified": "2026-08-26 15:31:12.612264",
  "modified_by": "Administrator",
  "module": "Red Background",
  "name": "Background Settings",
@@ -78,6 +78,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

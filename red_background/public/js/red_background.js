@@ -16,9 +16,14 @@ frappe.after_ajax(function () {
 
 		if (bg) {
 			root_style.setProperty("--bg-color", bg);
+		} else {
+			// No override for this theme, fall back to red_background.css.
+			root_style.removeProperty("--bg-color");
 		}
 		if (navbar) {
 			root_style.setProperty("--navbar-bg", navbar);
+		} else {
+			root_style.removeProperty("--navbar-bg");
 		}
 	}
 
