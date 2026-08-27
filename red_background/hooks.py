@@ -8,11 +8,29 @@ app_email = "hallo@alyf.de"
 app_license = "MIT"
 # required_apps = []
 
+# extend_bootinfo (not boot_session): runs even when bootinfo is served from cache,
+# same pattern as desk_theme which is refreshed after the cache lookup.
+extend_bootinfo = "red_background.boot.extend_bootinfo"
+after_install = "red_background.install.after_install"
+after_migrate = "red_background.install.after_migrate"
+
+app_include_js = "/assets/red_background/js/red_background.js"
+
+doctype_js = {
+	"User": "public/js/user.js",
+}
+
+doc_events = {
+	"User": {
+		"validate": "red_background.user.validate_user_desk_color",
+	},
+}
+
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/red_background/css/red_background.css"
+# app_include_css = "/assets/red_background/css/red_background.css"
 # app_include_js = "/assets/red_background/js/red_background.js"
 
 # include js, css files in header of web template

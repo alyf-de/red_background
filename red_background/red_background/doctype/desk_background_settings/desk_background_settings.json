@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "creation": "2026-08-27 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "site_color_preset",
+  "site_color_intensity",
+  "allow_user_color",
+  "section_break_actions",
+  "clear_user_choices_on_reset",
+  "reset_to_standard"
+ ],
+ "fields": [
+  {
+   "default": "Light Red",
+   "fieldname": "site_color_preset",
+   "fieldtype": "Select",
+   "label": "Site Colour Preset",
+   "options": "Standard\nOff White\nWarm Gray\nCool Gray\nFog\nSand\nWheat\nCream\nButter\nPeach\nApricot\nLight Red\nBlush\nRose Quartz\nMint\nSage\nSea Foam\nSky\nBlue Gray\nLavender\nLilac",
+   "reqd": 1
+  },
+  {
+   "default": "Tint",
+   "depends_on": "eval:doc.site_color_preset!='Standard'",
+   "description": "Tint is softer. Strong is more vivid. Both keep at least 4.5:1 text contrast.",
+   "fieldname": "site_color_intensity",
+   "fieldtype": "Select",
+   "label": "Colour Strength",
+   "options": "Tint\nStrong",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_user_color",
+   "fieldtype": "Check",
+   "label": "Allow users to choose their own colour"
+  },
+  {
+   "fieldname": "section_break_actions",
+   "fieldtype": "Section Break",
+   "label": "Reset"
+  },
+  {
+   "default": "0",
+   "description": "When using Reset to Standard, also clear desk colour on all User records.",
+   "fieldname": "clear_user_choices_on_reset",
+   "fieldtype": "Check",
+   "label": "Clear all user choices on reset"
+  },
+  {
+   "fieldname": "reset_to_standard",
+   "fieldtype": "Button",
+   "label": "Reset to Standard"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-08-27 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Red Background",
+ "name": "Desk Background Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

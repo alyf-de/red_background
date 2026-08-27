@@ -1,0 +1,241 @@
+# German translations for Red Background.
+# Copyright (C) 2026 ALYF GmbH
+# This file is distributed under the same license as the Red Background project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Red Background VERSION\n"
+"Report-Msgid-Bugs-To: hallo@alyf.de\n"
+"POT-Creation-Date: 2026-08-27 16:33+0000\n"
+"PO-Revision-Date: 2026-08-27 16:34+0000\n"
+"Last-Translator: hallo@alyf.de\n"
+"Language: de\n"
+"Language-Team: hallo@alyf.de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Label of a Check field in DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Allow users to choose their own colour"
+msgstr "Benutzern erlauben, eine eigene Farbe zu wählen"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Apricot"
+msgstr "Aprikose"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Blue Gray"
+msgstr "Blaugrau"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Blush"
+msgstr "Zartrosa"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Butter"
+msgstr "Butter"
+
+#. Label of a Check field in DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Clear all user choices on reset"
+msgstr "Alle Benutzerauswahlen beim Zurücksetzen löschen"
+
+#. Label of a Select field in DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Colour Strength"
+msgstr "Farbstärke"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Cool Gray"
+msgstr "Kühles Grau"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Cream"
+msgstr "Creme"
+
+#: red_background/install.py:94
+msgid "Desk Colour"
+msgstr "Schreibtisch-Farbe"
+
+#: red_background/install.py:103
+msgid "Desk Colour Strength"
+msgstr "Schreibtisch-Farbstärke"
+
+#: red_background/user.py:35
+msgid "Desk Colour Strength must be Tint or Strong."
+msgstr "Schreibtisch-Farbstärke muss Sanft oder Kräftig sein."
+
+#: red_background/user.py:32
+msgid "Desk Colour must be one of the available presets."
+msgstr "Schreibtisch-Farbe muss eine der verfügbaren Voreinstellungen sein."
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Fog"
+msgstr "Nebel"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Lavender"
+msgstr "Lavendel"
+
+#: red_background/install.py:99
+msgid "Leave empty to use the site default from Desk Background Settings."
+msgstr "Leer lassen, um die Seitenvoreinstellung aus Hintergrundfarbe Einstellungen zu verwenden."
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Light Red"
+msgstr "Hellrot"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Lilac"
+msgstr "Flieder"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Mint"
+msgstr "Minze"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Off White"
+msgstr "Fast Weiß"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Peach"
+msgstr "Pfirsich"
+
+#: red_background/config/desktop.py:11
+msgid "Red Background"
+msgstr "Roter Hintergrund"
+
+#. Name of a DocType
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Desk Background Settings"
+msgstr "Hintergrundfarbe Einstellungen"
+
+#. Label of a Section Break field in DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.js:3
+msgid "Reset site colour to Standard?"
+msgstr "Seitenfarbe auf Standard zurücksetzen?"
+
+#. Label of a Button field in DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Reset to Standard"
+msgstr "Auf Standard zurücksetzen"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Rose Quartz"
+msgstr "Rosenquarz"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Sage"
+msgstr "Salbei"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Sand"
+msgstr "Sand"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Sea Foam"
+msgstr "Meerschaum"
+
+#. Label of a Select field in DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Site Colour Preset"
+msgstr "Seitenfarbvoreinstellung"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Sky"
+msgstr "Himmel"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Standard"
+msgstr "Standard"
+
+#. Option for the 'Colour Strength' (Select) field in DocType 'Red Background
+#. Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Strong"
+msgstr "Kräftig"
+
+#. Name of a role
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "System Manager"
+msgstr "System-Manager"
+
+#. Option for the 'Colour Strength' (Select) field in DocType 'Red Background
+#. Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Tint"
+msgstr "Sanft"
+
+#: red_background/install.py:108
+msgid "Tint is softer, Strong is more vivid. Leave empty to use the site default."
+msgstr "Sanft ist zurückhaltender, Kräftig ist satter. Leer lassen für die Seitenvoreinstellung."
+
+#. Description of the 'Colour Strength' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Tint is softer. Strong is more vivid. Both keep at least 4.5:1 text contrast."
+msgstr "Sanft ist zurückhaltender. Kräftig ist satter. Beide halten mindestens 4,5:1 Textkontrast ein."
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Warm Gray"
+msgstr "Warmes Grau"
+
+#. Option for the 'Site Colour Preset' (Select) field in DocType 'Red
+#. Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "Wheat"
+msgstr "Weizen"
+
+#. Description of the 'Clear all user choices on reset' (Check) field in
+#. DocType 'Desk Background Settings'
+#: red_background/red_background/doctype/desk_background_settings/desk_background_settings.json
+msgid "When using Reset to Standard, also clear desk colour on all User records."
+msgstr "Beim Zurücksetzen auf Standard auch die Schreibtisch-Farbe aller Benutzer löschen."

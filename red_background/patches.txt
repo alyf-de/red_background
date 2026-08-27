@@ -1,0 +1,1 @@
+red_background.patches.v15_0.create_red_background_settings
